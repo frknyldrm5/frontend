@@ -1,0 +1,31 @@
+.btn{
+    background-color: beige;
+    margin:1rem;
+    padding:1rem 2rem;
+   }
+   
+   .btn:last-child{
+    margin-bottom: 3rem;
+   }
+   /* inline elementlere margin padding veremiyorum */
+   .span-btn{
+   display: inline-block;
+   background-color:burlywood;
+    padding:1rem; 
+    /* padding etrafındakilerin üstüne çıkıyor */
+    margin:1rem 1rem;
+    /* margin alt üst işlemiyor */
+   
+   }
+   
+   .new-btn{
+    background-color:red;
+   width:20vw;
+    padding:2rem 1rem;
+    margin:0 auto;
+    /* margin-top:2rem;
+   
+    margin-right: auto;
+    margin-left: auto; */
+    text-align:center;
+   }
