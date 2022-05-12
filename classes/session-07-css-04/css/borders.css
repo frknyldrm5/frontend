@@ -1,0 +1,46 @@
+.container,
+.container1{
+
+    margin: 1rem;
+}
+
+.msg{
+    margin: 1rem;
+    display: inline-block;
+}
+
+.msg1{
+    border: 3px solid red;
+}
+
+.msg2{
+
+    border: 4px dashed red;
+}
+.msg3{
+    border-right: 2px solid green;
+    border-left: 2px solid red
+    ;
+}
+.msg4{
+    border: 5px dotted blue;
+    background-color: red;
+    border-radius: 5px 0;
+    padding: 2rem;
+}
+.msg5{
+    border: 2px solid;
+    background-color: hsl(127, 47%, 48%);
+    border-radius: 30%;
+
+}
+.msg6{
+    border: 2px solid pink;
+}
+.msg7{
+    border: 3px solid gray;
+    border-radius: 50%;
+    padding: 2rem;
+    width: 5rem;
+    height: 5rem;
+}

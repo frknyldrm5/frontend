@@ -1,0 +1,43 @@
+.yatay-menu ul{
+    list-style-type: none;
+}
+.yatay-menu ul li{
+
+    background-color: bisque;
+    text-align: center;
+    display: inline-block;
+    width: 8rem;
+    height: 5rem;
+    margin: 0.5rem;
+
+}
+
+a{
+    text-decoration: none;
+    background-color: red;
+    display: inline-block;
+    width: 6rem;
+
+}
+
+li a:active{
+    color: red;
+}
+
+a:hover{
+    background-color: coral;
+    color: white;
+}
+
+
+/** acilir menu **/
+
+.acilir-menu ul{
+    display: none;
+}
+.acilir-menu:hover ul{
+    display: block;
+
+}
+
+
