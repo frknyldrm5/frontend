@@ -1,0 +1,61 @@
+* {
+    /* margin:0; */
+  }
+  .box {
+    width: 20vw;
+    height: 20vh;
+  }
+  .box1 {
+    background-color: aquamarine;
+    position: relative;
+    left: 2rem;
+    top: 3rem;
+    z-index:14;
+  }
+  .box2 {
+    background-color: blueviolet;
+    position: absolute;
+    left: 2rem;
+    top: 3rem;
+    z-index: 10;
+  }
+  .box3 {
+    background-color: yellow;
+  
+    position: relative;
+    left: 4rem;
+    top: 1rem;
+    z-index: 7;
+    text-align: end;
+  }
+  .dort {
+    background-color: coral;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+  }
+  .absolute-parent {
+    border: 5px solid blue;
+    width: 25vw;
+    height: 25vh;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+  
+  .box4{
+   position:fixed;
+   background-color:darkcyan;
+   /* alttaki yer belirtmelerini yapmak zorunda değilim absolute gibi marginsiz köşe noktalara göre konum alır*/
+   right:1rem;
+   bottom:1rem;
+  }
+  .box5{
+   background-color:pink;
+   position:sticky;
+   /* position:sticky anahtarından sonra alttaki gibi yön vermek zorundayız */
+  top:0;
+  /* sticky yi yerini değiştirmek istersek margin verebiliriz */
+  margin:1rem auto;
+  
+  }
