@@ -1,0 +1,17 @@
+.bg{
+    height: 70vh;
+    background-size: cover;
+    background-position: top center;
+
+    background-attachment: fixed;
+
+}
+
+
+.image1{
+    background-image: url("../img/monalisa.jpg");
+}
+
+.image2{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f0/Kaplumba%C4%9Fa_Terbiyecisi_vers2.jpg");
+}
