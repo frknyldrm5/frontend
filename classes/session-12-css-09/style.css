@@ -1,0 +1,172 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(18, 171, 95, 0.512);
+}
+.nav .brand img {
+  width: 80px;
+  border: 2px solid rgb(175, 17, 29);
+  border-radius: 30%;
+  margin: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+.navbar ul li a {
+  text-decoration: none;
+  padding: 5px;
+  color: black;
+  font-size: 19px;
+}
+.navbar ul li input {
+  width: 70%;
+}
+
+.slider {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #cc6699;
+}
+.slider img {
+  width: 30%;
+}
+.slider .left {
+  margin: 20px;
+}
+.slider .left button {
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 10px;
+  background-color: rgb(11, 98, 160);
+}
+
+.article .articles {
+  display: flex;
+}
+.article .articles .article1, .article .articles .article2 {
+  width: 50%;
+  background-color: gray;
+  height: 200px;
+  border: 2px solid rgb(175, 17, 29);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+}
+.article .articles .article2 {
+  text-align: center;
+  color: bisque;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  background-color: burlywood;
+}
+
+.content .cards {
+  display: flex;
+}
+.content .cards .card1 {
+  background-color: brown;
+  color: white;
+  width: 20%;
+  height: 200px;
+  margin: 10px;
+  border: 2px solid rgb(175, 17, 29);
+  border-radius: 10px;
+  padding: 10px;
+}
+.content .cards .card2 {
+  background-color: #252631;
+  color: white;
+  width: 20%;
+  height: 200px;
+  margin: 10px;
+  border: 2px solid rgb(175, 17, 29);
+  border-radius: 10px;
+  padding: 10px;
+}
+.content .cards .card3 {
+  background-color: cadetblue;
+  color: yellow;
+  width: 20%;
+  height: 200px;
+  margin: 10px;
+  border: 2px solid rgb(175, 17, 29);
+  border-radius: 10px;
+  padding: 10px;
+}
+.content .cards .card4 {
+  background-color: #247482;
+  color: #141414;
+  width: 20%;
+  height: 200px;
+  margin: 10px;
+  border: 2px solid rgb(175, 17, 29);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.footer {
+  background-color: pink;
+}
+
+.socialBoxes .social1 {
+  width: 10%;
+  height: 35px;
+  background-color: #456321;
+  background-color: rgb(120, 120, 120);
+  margin: 4px;
+}
+.socialBoxes .social2 {
+  width: 10%;
+  height: 50px;
+  background-color: #456321;
+  background-color: rgb(140, 140, 140);
+  margin: 6px;
+}
+.socialBoxes .social3 {
+  width: 10%;
+  height: 65px;
+  background-color: #456321;
+  background-color: rgb(160, 160, 160);
+  margin: 8px;
+}
+.socialBoxes .social4 {
+  width: 10%;
+  height: 80px;
+  background-color: #456321;
+  background-color: rgb(180, 180, 180);
+  margin: 10px;
+}
+.socialBoxes .social5 {
+  width: 10%;
+  height: 95px;
+  background-color: #456321;
+  background-color: rgb(200, 200, 200);
+  margin: 12px;
+}
+.socialBoxes .social6 {
+  width: 10%;
+  height: 110px;
+  background-color: #456321;
+  background-color: rgb(220, 220, 220);
+  margin: 14px;
+}
+
+.container.pink {
+  background-color: rgb(214, 111, 111);
+}
+
+.container.red {
+  background-color: rgb(255, 5, 5);
+}
+
+.container.orange {
+  background-color: rgb(255, 116, 13);
+}
+
+/*# sourceMappingURL=style.css.map */
