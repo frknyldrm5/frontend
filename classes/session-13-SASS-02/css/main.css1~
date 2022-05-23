@@ -1,0 +1,18 @@
+/* Error: Top-level selectors may not contain the parent selector "&".
+ *   ,
+ * 1 | &__bio-image{
+ *   | ^^^^^^^^^^^^
+ *   '
+ *   scss\_about.scss 1:1  @import
+ *   scss\main.scss 1:35   root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: Top-level selectors may not contain the parent selector "&".\a   \2577 \a 1 \2502  &__bio-image{\d\a   \2502  ^^^^^^^^^^^^\a   \2575 \a   scss\\_about.scss 1:1  @import\a   scss\\main.scss 1:35   root stylesheet';
+}

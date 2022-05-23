@@ -1,0 +1,14 @@
+.projects{
+    &__bio-image{
+        height:50vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+      background:linear-gradient(to right,rgba($primary-color,0.9),rgba($primary-color,0.4)),   
+      url(../img/model-1.jpg) center top;
+      background-size: cover;  
+      }
+}
+
