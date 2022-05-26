@@ -1,0 +1,31 @@
+*{
+    font-family: "Roboto";
+}
+nav.menu li{
+    background-color: gray;
+    text-align: left;
+
+}
+.menu .list .aktif{
+    background-color: black;
+}
+.menu .list .aktif:hover{
+    background-color: blue;
+}
+.menu .list{
+    list-style-type: 🥒;
+    list-style-position: inside;
+}
+.menu .list a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+nav.menu li:hover{
+    background-color: red;
+    color: yellow;
+    border: 2px solid black;
+}
+a:hover{
+    color: yellow;
+}

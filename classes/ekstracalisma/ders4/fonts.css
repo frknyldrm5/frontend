@@ -1,0 +1,16 @@
+*{
+    font-family: 'Lobster', cursive;
+}
+.menu{
+    background-color: aqua;
+    width: 96px;
+    height: 96px;
+    font-size: 18px;
+}
+
+.aktif{
+    background-color: brown;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}

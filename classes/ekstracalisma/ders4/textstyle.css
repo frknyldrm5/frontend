@@ -1,0 +1,31 @@
+*{
+    font-family: sans-serif;
+}
+h1{
+    color: rgb(255, 10, 225);
+    text-decoration: blue overline underline wavy 8px;
+    text-transform: capitalize ;
+    text-align: center;
+    word-spacing: 15px;
+    letter-spacing: 5px;
+}
+p{
+    text-indent: 5rem;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    line-height: 30px;
+}
+li{
+    background-color: yellow;
+    list-style-position: inside;
+    list-style-type: 🌍;
+    list-style-image: ;
+    list-style: circle;
+
+}
+
+h3{
+    text-align: center;
+    direction: rtl;
+    
+}
