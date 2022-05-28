@@ -1,0 +1,5 @@
+.liste tr:nth-child(odd){
+    background-color: brown;
+    border: cadetblue ;
+    color: chartreuse;
+}
