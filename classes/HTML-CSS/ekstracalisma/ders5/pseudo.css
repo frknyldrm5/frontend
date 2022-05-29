@@ -3,3 +3,44 @@
     border: cadetblue ;
     color: chartreuse;
 }
+.liste td:first-child{
+    font-weight: 900;
+}
+.liste td:last-child{
+    font-style: italic;
+}
+.liste tr:nth-child(3){
+    background-color: darkturquoise;
+    font-size:larger
+    
+}
+.liste tr:nth-child(3)::after,.liste tr:nth-child(3)::before{
+
+    content: "🌏";
+
+
+}
+.liste tr::before, .liste tr::after{
+    
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "🎀";
+    color: olive;
+}
+td:hover,th:hover{
+    background-color: lightgreen;
+}
+table,td,th{
+    border-collapse: collapse;
+}
+a:visited{
+    background-color: red;
+    color: turquoise;
+}
+a:active{
+    color: purple;
+}
+a:hover{
+    color: red;
+    font-size: 50px;
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+
+.dede{
+    background-color: red;
+    width: 50%;
+    height: 50vh;
+}
+.baba{
+    background-color: royalblue;
+    width: 50vh;
+    /* height: 50vh; */
+}
+.torun{
+    background-color: saddlebrown;
+    width: 50vw;
+    /* height: 50vh; */
+}
+
+.anane{
+    font-size: 2em;
+    background-color: salmon;
+    color: lime;
+
+}
+.anne{
+    font-size: 0.5em;
+    background-color: grey;
+    color: maroon;
+}
+.kiz{
+    font-size: 2em;
+    background-color: hotpink;
+}
+
+.div1{
+    font-size: 2rem;
+    background-color: mediumvioletred;
+    border-radius: 2rem;
+    border: navajowhite;
+}
+.div2{
+    font-size: 2rem;
+}

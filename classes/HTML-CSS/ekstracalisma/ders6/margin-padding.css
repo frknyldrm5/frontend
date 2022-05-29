@@ -1,0 +1,37 @@
+.btn{
+    background-color: beige;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.btn:last-child{
+    margin-bottom: 3rem;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.span-btn{
+    background-color: chocolate;
+    margin: 1rem;
+    padding: 2rem;
+    text-align: center;
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.new-btn{
+    background-color: red;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    
+    width: 20vh;
+    text-align: center;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
