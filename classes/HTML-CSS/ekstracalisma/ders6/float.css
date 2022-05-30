@@ -1,0 +1,24 @@
+img{
+    width: 30%;
+    float: left;
+}
+.box{
+    float: left;
+    height: 2rem;
+
+}
+.box1{
+    background-color: purple;
+    width: 20%;
+}
+.box2{
+    background-color: blue;
+    width: 30%;
+}
+.box3{
+    background-color: orange;
+    width: 40%;
+}
+.clearfix{
+    clear: left;
+}
