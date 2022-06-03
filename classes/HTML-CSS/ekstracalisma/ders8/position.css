@@ -1,0 +1,40 @@
+.box{
+    width: 20vw;
+    height: 20vh;
+   
+}
+.box1{
+    background-color: aquamarine;
+    position: relative;
+    left: 2rem;
+    top: 3rem ;
+    z-index: 1;
+}
+.box2{
+    background-color: blueviolet;
+    position: absolute;
+    left: 2rem;
+    top: 3rem;
+    z-index: 3;
+}
+.box3{
+    background-color: yellow;
+}
+.dort{
+    background-color: coral;
+}.absolute-parent{
+    
+    border: 2px solid red;
+}
+.box4{
+    position: fixed;
+    background-color: cyan;
+    right: 1rem;
+    bottom: 1rem;
+}
+.box5{
+    background-color: rgb(67, 67, 255);
+    position: sticky;
+    top: 0;
+    margin: 1rem auto;
+}
